@@ -1,6 +1,4 @@
-import Footer from "./components/Footer/Footer";
-import Main from "./components/Main/Main";
-import Header from "./components/Header/header";
+import DashboardLayout from "./components/DashboardLayout/DashboardLayout";
 
 
 export function App() {
@@ -9,5 +7,6 @@ export function App() {
     justifyContent: "space-between",
     flexDirection: 'column',
     height: '100vh'
-  }}><Header /><Main /><Footer /></div >;
+  }}><DashboardLayout>
+      я по гендеру Мото-мото</DashboardLayout></div >;
 }

@@ -2,6 +2,7 @@ export default function Footer() {
   return (
     <div style={{
       backgroundColor: '#78DBE2',
-      height: 50
-    }}>footer</div>
-  );
+      height: 100,
+      fontSize: 55,
+    }}>утро вечера мудренее</div>
+  );}
